@@ -289,5 +289,10 @@ public class httpUtils {
         //System.out.println(str);
     }
 
-
+	public void firstMethod(){
+		String a = "";
+		if(a == "" || a == null){
+			a = "1";
+		}
+	}
 }
